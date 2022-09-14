@@ -1,0 +1,1119 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+      "title": "BO Product",
+      "version": "v1",
+      "description": "BO Alfagift Services Product"
+    },
+    "servers": [
+      {
+        "url": "http://10.25.4.13:8083/v1/product",
+        "description": "Staging Environment BO Alfagift"
+      }
+    ],
+    "paths": {
+        "/product/getAjax": {
+        "post": {
+            "tags": [
+                "BO Product Services"
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                        },
+                        "examples": {
+                            "Success": {
+                                "value": {
+                                    "uniqueId": null,
+                                    "draw": "1",
+                                    "start": 0,
+                                    "length": 10,
+                                    "search": "",
+                                    "regex": false,
+                                    "columns": [
+                                        {
+                                            "index": 0,
+                                            "data": "0",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": false,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 1,
+                                            "data": "1",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": false,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 2,
+                                            "data": "2",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": false,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 3,
+                                            "data": "3",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 4,
+                                            "data": "4",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 5,
+                                            "data": "5",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 6,
+                                            "data": "6",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 7,
+                                            "data": "7",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 8,
+                                            "data": "8",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 9,
+                                            "data": "9",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 10,
+                                            "data": "10",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 11,
+                                            "data": "11",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 12,
+                                            "data": "12",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 13,
+                                            "data": "13",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": "asc"
+                                        },
+                                        {
+                                            "index": 14,
+                                            "data": "14",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 15,
+                                            "data": "15",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 16,
+                                            "data": "16",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        },
+                                        {
+                                            "index": 17,
+                                            "data": "17",
+                                            "name": "",
+                                            "searchable": true,
+                                            "orderable": true,
+                                            "search": "",
+                                            "regex": false,
+                                            "sortDir": null
+                                        }
+                                    ],
+                                    "order": {
+                                        "index": 13,
+                                        "data": "13",
+                                        "name": "",
+                                        "searchable": true,
+                                        "orderable": true,
+                                        "search": "",
+                                        "regex": false,
+                                        "sortDir": "asc"
+                                    },
+                                    "maxParamsToCheck": 18,
+                                    "globalSearch": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": true
+            },
+            "responses": {
+            "200": {
+              "content": {
+                "application/json": {
+                  "examples": {
+                    "Success": {
+                      "value": {
+                        "message": null,
+                        "status": 1,
+                        "data": {
+                            "draw": 1,
+                            "recordsTotal": 4098,
+                            "recordsFiltered": 4098,
+                            "data": [
+                                {
+                                    "productId": 24982,
+                                    "productName": "Dove Shampoo Total Damage Treatment 160mlll",
+                                    "productStock": 555,
+                                    "categoryLvl0": {
+                                        "categoryId": "5bf28fe7f4b58d03c576b090",
+                                        "categoryName": "Sampo",
+                                        "categoryLevel": 2,
+                                        "categoryImage": null,
+                                        "categoryImageFileName": "pm_category_181119_YZBz.jpg",
+                                        "parentId": "5bf28fd9f4b58d03c576b08f",
+                                        "status": 26,
+                                        "createdBy": null,
+                                        "updatedBy": null,
+                                        "createdAt": "Mon Nov 19 17:26:47 WIB 2018",
+                                        "updatedAt": null,
+                                        "category": null,
+                                        "subCategory": null,
+                                        "createdByMail": "wgs@google.com",
+                                        "updatedByMail": null
+                                    },
+                                    "categoryLvl1": null,
+                                    "categoryLvl2": null,
+                                    "categoryLvl3": null,
+                                    "productCategoryLvl0": "5b85712ca3834cdebbbc4369",
+                                    "productCategoryLvl1": "5bf28fd9f4b58d03c576b08f",
+                                    "productCategoryLvl2": "5bf28fe7f4b58d03c576b090",
+                                    "productCategoryLvl3": null,
+                                    "createdAt": "2016-04-30T23:17:01+0000",
+                                    "updatedAt": "2022-08-31T10:01:01+0000",
+                                    "productBarcode": "8999999039165",
+                                    "productBarcodeAlternate": "",
+                                    "ppn": true,
+                                    "ppnText": null,
+                                    "price": 21800.0,
+                                    "productSpecialPrice": 19100.0,
+                                    "productSpecialPriceTo": "2020-06-05T04:10:00+0000",
+                                    "productSpecialPriceFrom": "2020-06-01T19:10:00+0000",
+                                    "productAlfagiftPrice": 26701,
+                                    "productAlfagiftSpecialPrice": null,
+                                    "productAlfagiftSpecialPriceTo": null,
+                                    "productAlfagiftSpecialPriceFrom": null,
+                                    "cogs": 15454.36,
+                                    "margin": 0.0,
+                                    "marginSpecialPrice": null,
+                                    "productSku": "A13820006071",
+                                    "productSkuSeller": "320062",
+                                    "status": 27,
+                                    "productDesc": "<p>Memiliki rambut indah dan sehat adalah idaman setiap wanita. Namun paparan debu, kotoran, dan panas matahari saat beraktivitas di luar bisa mengganggu nutrisi dalam rambut dan membuatnya rusak. Untuk itu dibutuhkan perhatian dan perawatan yang menyeluruh agar menjaga rambut tetap sehat dan bebas dari masalah rambut seperti rambut rapuh, kusam, mudah putus, pecah-pecah, dan rambut bercabang. Dove Shampoo Total Damage Treatment hadir untuk bantu Anda mengembalikan rambut indah menawan Anda dan menjaganya tetap sehat.</p>\n<p><br>Dove Shampoo Total Damage Treatment 160ML merupakan salah satu varian sampo dari Dove yang diformulasi khusus untuk membantu mengatasi rambut rusak dan bercabang. Mengandung Keratin Repair yang masuk hingga ke dalam helai rambut untuk mengembalikan Keratin yang rusak sehingga rambut kembali sehat dan menjadikannya 10x lebih kuat. Dove Shampoo Total Damage Treatment membersihkan kulit kepala dan rambut secara menyeluruh sekaligus memperbaiki Keratin yang rusak sehingga membuat rambut Anda kembali sehat bernutrisi dan berkilau.<br><br>Dapatkan rambut sehat dan indah menawan dengan menggunakan Dove Shampoo Total Damage Treatment 160ml. Dengan nutrisi yang terkandung di dalamnya dan dukungan teknologi terkini, Dove memberikan perawatan menyeluruh untuk rambut indah dan sehat Anda.<br><br></p>",
+                                    "productShortDesc": "<ul><li>Mengandung Keratin repair</li>\n<li>Membuat rambut kembali sehat</li>\n<li>Menjadikan rambut 10x lebih kuat</li>\n</ul>",
+                                    "productWeight": 300,
+                                    "productHeight": 17,
+                                    "productWidth": 6,
+                                    "productLength": 3,
+                                    "productImages": [
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Base Image",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_base.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_base.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Small Image",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_small.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_small.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Thumbnail",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_thumb.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_thumb.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Media Gallery",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0.jpg"
+                                            ]
+                                        }
+                                    ],
+                                    "productSellerEmail": "seller.admin1@alfacart.com",
+                                    "productApprovalStatus": 31,
+                                    "flagImagePromo": 0,
+                                    "productFavourite": true,
+                                    "createdByMail": "seller.admin1@alfacart.com",
+                                    "updatedByMail": null,
+                                    "productMinQtyAllowedInCart": 2,
+                                    "productMaxQtyAllowedInCart": 100,
+                                    "productMaxQtyCustomerPerDay": 100,
+                                    "productIncQtyShoppingCart": 2,
+                                    "productStockAvailability": 26,
+                                    "productIsStockUnlimited": null,
+                                    "productMaxQtyCartUnlimited": null,
+                                    "productMaxQtyDayUnlimited": null,
+                                    "productPositionGeneral": 100,
+                                    "flagNasional": false,
+                                    "brandId": 14720,
+                                    "productType": 212,
+                                    "useSat": null,
+                                    "oldAttrProduct": {
+                                        "status": 27
+                                    }
+                                }
+                            ]
+                        }
+                      }
+                    },
+                    "Failed": {
+                      "value": {}
+                    }
+                  }
+                }
+              },
+              "description": "server is processing the message"
+            }
+            },
+            "parameters": [
+                {
+                "$ref": "#/components/parameters/Content-Type"
+                }
+            ]
+        }
+      },
+        "/product/updateStatus": {
+        "post": {
+            "tags": [
+                "BO Product Services"
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                        },
+                        "examples": {
+                            "Success": {
+                                "value": {
+                                    "productId": 24982,
+                                    "productName": "Dove Shampoo Total Damage Treatment 160ml",
+                                    "productStock": 999999,
+                                    "categoryLvl0": {
+                                        "categoryId": "5b85712ca3834cdebbbc4369",
+                                        "categoryName": "Kesehatan & Kecantikan",
+                                        "categoryLevel": 0,
+                                        "categoryImage": null,
+                                        "categoryImageFileName": "pm_category_190116_HR12.png",
+                                        "parentId": null,
+                                        "status": 26,
+                                        "createdBy": null,
+                                        "updatedBy": 1836486,
+                                        "createdAt": "Fri Aug 10 07:00:01 WIB 2018",
+                                        "updatedAt": "Wed Jan 16 10:26:18 WIB 2019",
+                                        "category": null,
+                                        "subCategory": null,
+                                        "createdByMail": null,
+                                        "updatedByMail": "alfagift.wgs@gmail.com"
+                                    },
+                                    "categoryLvl1": null,
+                                    "categoryLvl2": null,
+                                    "categoryLvl3": null,
+                                    "productCategoryLvl0": "5b85712ca3834cdebbbc4369",
+                                    "productCategoryLvl1": "5bf28fd9f4b58d03c576b08f",
+                                    "productCategoryLvl2": "5bf28fe7f4b58d03c576b090",
+                                    "productCategoryLvl3": null,
+                                    "createdAt": "2016-04-30T23:17:01+0000",
+                                    "updatedAt": "2022-07-04T04:26:45+0000",
+                                    "productBarcode": "8999999039165",
+                                    "productBarcodeAlternate": null,
+                                    "ppn": true,
+                                    "price": 21800.0,
+                                    "productSpecialPrice": 19100.0,
+                                    "productSpecialPriceTo": "2020-06-05T04:10:00+0000",
+                                    "productSpecialPriceFrom": "2020-06-01T19:10:00+0000",
+                                    "productAlfagiftPrice": 26701,
+                                    "productAlfagiftSpecialPrice": null,
+                                    "productAlfagiftSpecialPriceTo": null,
+                                    "productAlfagiftSpecialPriceFrom": null,
+                                    "cogs": 15454.36,
+                                    "margin": 0.36,
+                                    "marginSpecialPrice": 0.0,
+                                    "productSku": "A13820006071",
+                                    "productSkuSeller": "320062",
+                                    "status": 26,
+                                    "productDesc": "<p>Memiliki rambut indah dan sehat adalah idaman setiap wanita. Namun paparan debu, kotoran, dan panas matahari saat beraktivitas di luar bisa mengganggu nutrisi dalam rambut dan membuatnya rusak. Untuk itu dibutuhkan perhatian dan perawatan yang menyeluruh agar menjaga rambut tetap sehat dan bebas dari masalah rambut seperti rambut rapuh, kusam, mudah putus, pecah-pecah, dan rambut bercabang. Dove Shampoo Total Damage Treatment hadir untuk bantu Anda mengembalikan rambut indah menawan Anda dan menjaganya tetap sehat.</p>\n<p><br>Dove Shampoo Total Damage Treatment 160ML merupakan salah satu varian sampo dari Dove yang diformulasi khusus untuk membantu mengatasi rambut rusak dan bercabang. Mengandung Keratin Repair yang masuk hingga ke dalam helai rambut untuk mengembalikan Keratin yang rusak sehingga rambut kembali sehat dan menjadikannya 10x lebih kuat. Dove Shampoo Total Damage Treatment membersihkan kulit kepala dan rambut secara menyeluruh sekaligus memperbaiki Keratin yang rusak sehingga membuat rambut Anda kembali sehat bernutrisi dan berkilau.<br><br>Dapatkan rambut sehat dan indah menawan dengan menggunakan Dove Shampoo Total Damage Treatment 160ml. Dengan nutrisi yang terkandung di dalamnya dan dukungan teknologi terkini, Dove memberikan perawatan menyeluruh untuk rambut indah dan sehat Anda.<br><br></p>",
+                                    "productShortDesc": "<ul><li>Mengandung Keratin repair</li>\n<li>Membuat rambut kembali sehat</li>\n<li>Menjadikan rambut 10x lebih kuat</li>\n</ul>",
+                                    "productWeight": 300,
+                                    "productHeight": 17,
+                                    "productWidth": 6,
+                                    "productLength": 3,
+                                    "productImages": [
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Base Image",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_base.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_base.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Small Image",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_small.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_small.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Thumbnail",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0_thumb.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0_thumb.jpg"
+                                            ]
+                                        },
+                                        {
+                                            "tbmaId": null,
+                                            "type": "Media Gallery",
+                                            "createdAt": null,
+                                            "updatedAt": null,
+                                            "url": [
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_11jun17a_A13820006071_0.jpg",
+                                                "http://s1stgaws.alfacart.com/sc/product/1/_3_2_320062_1_0.jpg"
+                                            ]
+                                        }
+                                    ],
+                                    "productSellerEmail": "seller.admin1@alfacart.com",
+                                    "productApprovalStatus": 31,
+                                    "flagImagePromo": 0,
+                                    "productFavourite": true,
+                                    "updatedByMail": "farried.fitri@alfacart.com",
+                                    "createdByMail": "seller.admin1@alfacart.com",
+                                    "productMinQtyAllowedInCart": 2,
+                                    "productMaxQtyAllowedInCart": 15,
+                                    "productMaxQtyCustomerPerDay": 10,
+                                    "productIncQtyShoppingCart": 2,
+                                    "productStockAvailability": 26,
+                                    "productIsStockUnlimited": null,
+                                    "productMaxQtyCartUnlimited": null,
+                                    "productMaxQtyDayUnlimited": null,
+                                    "productPositionGeneral": 100,
+                                    "flagNasional": false,
+                                    "productType": 212,
+                                    "useSat": null,
+                                    "oldAttrProduct": {
+                                        "status": 26
+                                    },
+                                    "ppnText": "Yes"
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": true
+            },
+            "responses": {
+            "200": {
+              "content": {
+                "application/json": {
+                  "examples": {
+                    "Success": {
+                      "value": {
+                        "message": null,
+                        "status": 1,
+                        "data": {
+                        }
+                      }
+                    },
+                    "Failed": {
+                      "value": {}
+                    }
+                  }
+                }
+              },
+              "description": "server is processing the message"
+            }
+            },
+            "parameters": [
+                {
+                "$ref": "#/components/parameters/Content-Type"
+                },
+                {
+                    "in" :"query",
+                    "name": "userId",
+                    "schema" : {
+                        "type": "integer"
+                    },
+                    "description": "User ID"
+                }
+            ]
+        }
+      },
+        "/product/get": {
+        "get": {
+            "parameters": [
+                {
+                "$ref": "#/components/parameters/Content-Type"
+                },
+                {
+                    "in" :"query",
+                    "name": "id",
+                    "schema" : {
+                        "type": "integer"
+                    },
+                    "description": "ID"
+                }
+            ],
+            "tags": [
+                "BO Product Services"
+            ],
+            "responses": {
+                "200": {
+                    "content": {
+                        "application/json": {
+                            "examples": {
+                                "Success": {
+                                "value": {
+                                    "message": "Success",
+                                    "status": 1,
+                                    "data": {
+                                        "productId": 12746,
+                                        "productName": " Wong Coco Sari Kelapa Dugan 1Kg",
+                                        "productStock": 999999,
+                                        "categoryLvl0": null,
+                                        "categoryLvl1": null,
+                                        "categoryLvl2": null,
+                                        "categoryLvl3": null,
+                                        "productCategoryLvl0": "5b85712ca3834cdebbbc4365",
+                                        "productCategoryLvl1": "5b87bc729de3335b80cb354a",
+                                        "productCategoryLvl2": "5bf28b19f4b58d03c576b045",
+                                        "productCategoryLvl3": null,
+                                        "createdAt": "2016-05-05T05:22:41+0000",
+                                        "updatedAt": "2022-08-31T08:12:28+0000",
+                                        "productBarcode": "8998288410005",
+                                        "productBarcodeAlternate": null,
+                                        "ppn": false,
+                                        "ppnText": null,
+                                        "price": 17500.0,
+                                        "productSpecialPrice": 16000.0,
+                                        "productSpecialPriceTo": "2019-05-31T04:55:00+0000",
+                                        "productSpecialPriceFrom": "2019-05-15T20:00:00+0000",
+                                        "productAlfagiftPrice": 17500,
+                                        "productAlfagiftSpecialPrice": null,
+                                        "productAlfagiftSpecialPriceTo": null,
+                                        "productAlfagiftSpecialPriceFrom": null,
+                                        "cogs": 12636.0,
+                                        "margin": 0.0,
+                                        "marginSpecialPrice": null,
+                                        "productSku": "A12890000703",
+                                        "productSkuSeller": "113429",
+                                        "status": 26,
+                                        "productDesc": "<h2>&nbsp;Wong Coco Sari Kelapa Dugan 1Kg</h2><p></p><div>&nbsp;<b>Wong Coco Sari Kelapa Dugan 1Kg</b> - Buah kelapa dikenal memiliki banyak manfaat bagi kesehatan, mulai dari daging buah hingga airnya. Daging buah nya yang lembut dan airnya yang segar merupakan perpaduan yang pas saat dimakan, terlebih bila dikonsumsi diwaktu panas. Kini&nbsp; menikmati kebaikan buah kelapa bisa Anda dapatkan dengan cara yang unik dan praktis dengan hadirnya Wong Coco Sari Kelapa.&nbsp;</div><div><br></div><div>Wong Coco Sari Kelapa Dugan 1Kg merupakan jelly sari kelapa siap makan yang terbuat dari air kelapa pilihan yang difermentasi dengan paduan 100% gula asli. Wong Coco nata de coco diolah dan diproses secara higienis tanpa tambahan pemanis buatan untuk menghasilkan jelly yang aman dikonsumsi. Dengan warna putih transparan dan tekstur kenyal yang chewy, memberikan sensasi makan kelapa yang unik. Selain itu, jelly sari kelapa Wong Coco mengandung serat pangan alami sehingga baik untuk pencernaan, juga bebas kolesterol sehingga baik untuk kesehatan jantung.&nbsp;</div><div><br></div><div>Nikmati kebaikan serat alami Wong Coco Sari Kelapa Dugan 1Kg bersama teman dan keluarga tercinta. Hadir dengan potongan dugan, membuatnya makin nikmat saat disantap. Jelly sari kelapa siap makan ini dapat disajikan dengan es buah, salad, puding, yoghurt, dan lain-lain. Lebih nikmat disajikan dingin.</div><div><br></div><p></p>",
+                                        "productShortDesc": "<ul><li>Dibuat dari air kelapa pilihan dan 100% gula asli</li>\n<li>Mengandung serat pangan alami</li>\n<li>Bebas kolesterol</li>\n</ul><p> </p>",
+                                        "productWeight": 1000,
+                                        "productHeight": 11,
+                                        "productWidth": 16,
+                                        "productLength": 15,
+                                        "productImages": [
+                                            {
+                                                "tbmaId": null,
+                                                "type": "Base Image",
+                                                "createdAt": null,
+                                                "updatedAt": null,
+                                                "url": [
+                                                    "https://cs1.alfacart.com/product/1/_28mei17a_A12890000703_0_base.jpg",
+                                                    "https://cs1.alfacart.com/product/1/1_A12890000703_20190517164334442_base.jpg"
+                                                ]
+                                            },
+                                            {
+                                                "tbmaId": null,
+                                                "type": "Small Image",
+                                                "createdAt": null,
+                                                "updatedAt": null,
+                                                "url": [
+                                                    "https://cs1.alfacart.com/product/1/_28mei17a_A12890000703_0_small.jpg",
+                                                    "https://cs1.alfacart.com/product/1/1_A12890000703_20190517164334442_small.jpg"
+                                                ]
+                                            },
+                                            {
+                                                "tbmaId": null,
+                                                "type": "Thumbnail",
+                                                "createdAt": null,
+                                                "updatedAt": null,
+                                                "url": [
+                                                    "https://cs1.alfacart.com/product/1/_28mei17a_A12890000703_0_thumb.jpg",
+                                                    "https://cs1.alfacart.com/product/1/1_A12890000703_20190517164334442_thumb.jpg"
+                                                ]
+                                            },
+                                            {
+                                                "tbmaId": null,
+                                                "type": "Media Gallery",
+                                                "createdAt": null,
+                                                "updatedAt": null,
+                                                "url": [
+                                                    "https://cs1.alfacart.com/product/1/_28mei17a_A12890000703_0.jpg"
+                                                ]
+                                            }
+                                        ],
+                                        "productSellerEmail": "seller.admin1@alfacart.com",
+                                        "productApprovalStatus": 31,
+                                        "flagImagePromo": 0,
+                                        "productFavourite": null,
+                                        "createdByMail": "seller.admin1@alfacart.com",
+                                        "updatedByMail": "farried.fitri@alfacart.com",
+                                        "productMinQtyAllowedInCart": 1,
+                                        "productMaxQtyAllowedInCart": 6,
+                                        "productMaxQtyCustomerPerDay": 480,
+                                        "productIncQtyShoppingCart": 1,
+                                        "productStockAvailability": 26,
+                                        "productIsStockUnlimited": null,
+                                        "productMaxQtyCartUnlimited": null,
+                                        "productMaxQtyDayUnlimited": null,
+                                        "productPositionGeneral": 100,
+                                        "flagNasional": null,
+                                        "brandId": null,
+                                        "productType": 212,
+                                        "useSat": null,
+                                        "oldAttrProduct": {
+                                            "status": 26
+                                        }
+                                    }
+                                }
+                                },
+                                "Failed": {
+                                "value": {}
+                                }   
+                            }
+                        }
+                    },
+                    "description": "server is processing the message"
+                }
+            }
+        }
+      },
+        "/product/saveUpdate": {
+        "post": {
+            "tags": [
+                "BO Product Services"
+            ],
+            "requestBody": {
+                "content": {
+                    "application/json": {
+                        "schema": {
+                        },
+                        "examples": {
+                            "Success": {
+                                "value": {
+                                    "productId": 12746,
+                                    "productName": " Wong Coco Sari Kelapa Dugan 1Kg",
+                                    "productStock": 999999,
+                                    "categoryLvl0": null,
+                                    "categoryLvl1": null,
+                                    "categoryLvl2": null,
+                                    "categoryLvl3": null,
+                                    "productCategoryLvl0": "5b85712ca3834cdebbbc4365",
+                                    "productCategoryLvl1": "5b87bc729de3335b80cb354a",
+                                    "productCategoryLvl2": "5bf28b19f4b58d03c576b045",
+                                    "productCategoryLvl3": "",
+                                    "createdAt": null,
+                                    "updatedAt": null,
+                                    "productBarcode": null,
+                                    "productBarcodeAlternate": null,
+                                    "ppn": false,
+                                    "price": 17500.0,
+                                    "productSpecialPrice": null,
+                                    "productSpecialPriceTo": null,
+                                    "productSpecialPriceFrom": null,
+                                    "productAlfagiftPrice": 17500,
+                                    "productAlfagiftSpecialPrice": null,
+                                    "productAlfagiftSpecialPriceTo": "",
+                                    "productAlfagiftSpecialPriceFrom": "",
+                                    "cogs": 12636.0,
+                                    "margin": 0.28,
+                                    "marginSpecialPrice": 0.0,
+                                    "productSku": "A12890000703",
+                                    "productSkuSeller": "113429",
+                                    "status": 27,
+                                    "productDesc": "<h2>&nbsp;Wong Coco Sari Kelapa Dugan 1Kg</h2><p></p><div>&nbsp;<b>Wong Coco Sari Kelapa Dugan 1Kg</b> - Buah kelapa dikenal memiliki banyak manfaat bagi kesehatan, mulai dari daging buah hingga airnya. Daging buah nya yang lembut dan airnya yang segar merupakan perpaduan yang pas saat dimakan, terlebih bila dikonsumsi diwaktu panas. Kini&nbsp; menikmati kebaikan buah kelapa bisa Anda dapatkan dengan cara yang unik dan praktis dengan hadirnya Wong Coco Sari Kelapa.&nbsp;</div><div><br></div><div>Wong Coco Sari Kelapa Dugan 1Kg merupakan jelly sari kelapa siap makan yang terbuat dari air kelapa pilihan yang difermentasi dengan paduan 100% gula asli. Wong Coco nata de coco diolah dan diproses secara higienis tanpa tambahan pemanis buatan untuk menghasilkan jelly yang aman dikonsumsi. Dengan warna putih transparan dan tekstur kenyal yang chewy, memberikan sensasi makan kelapa yang unik. Selain itu, jelly sari kelapa Wong Coco mengandung serat pangan alami sehingga baik untuk pencernaan, juga bebas kolesterol sehingga baik untuk kesehatan jantung.&nbsp;</div><div><br></div><div>Nikmati kebaikan serat alami Wong Coco Sari Kelapa Dugan 1Kg bersama teman dan keluarga tercinta. Hadir dengan potongan dugan, membuatnya makin nikmat saat disantap. Jelly sari kelapa siap makan ini dapat disajikan dengan es buah, salad, puding, yoghurt, dan lain-lain. Lebih nikmat disajikan dingin.</div><div><br></div><p></p>",
+                                    "productShortDesc": null,
+                                    "productWeight": null,
+                                    "productHeight": null,
+                                    "productWidth": null,
+                                    "productLength": null,
+                                    "productImages": null,
+                                    "productSellerEmail": null,
+                                    "productApprovalStatus": null,
+                                    "flagImagePromo": null,
+                                    "productFavourite": null,
+                                    "updatedByMail": "farried.fitri@alfacart.com",
+                                    "createdByMail": null,
+                                    "productMinQtyAllowedInCart": 1,
+                                    "productMaxQtyAllowedInCart": 6,
+                                    "productMaxQtyCustomerPerDay": 480,
+                                    "productIncQtyShoppingCart": 1,
+                                    "productStockAvailability": 26,
+                                    "productIsStockUnlimited": null,
+                                    "productMaxQtyCartUnlimited": null,
+                                    "productMaxQtyDayUnlimited": null,
+                                    "productPositionGeneral": 100,
+                                    "flagNasional": null,
+                                    "productType": 212,
+                                    "useSat": null,
+                                    "oldAttrProduct": {
+                                        "status": 27
+                                    },
+                                    "ppnText": "No"
+                                }
+                            }
+                        }
+                    }
+                },
+                "required": true
+            },
+            "responses": {
+            "200": {
+              "content": {
+                "application/json": {
+                  "examples": {
+                    "Success": {
+                      "value": {
+                        "message": null,
+                        "status": 1,
+                        "data": {
+                        }
+                      }
+                    },
+                    "Failed": {
+                      "value": {}
+                    }
+                  }
+                }
+              },
+              "description": "server is processing the message"
+            }
+            },
+            "parameters": [
+                {
+                "$ref": "#/components/parameters/Content-Type"
+                },
+                {
+                    "in" :"query",
+                    "name": "userId",
+                    "schema" : {
+                        "type": "integer"
+                    },
+                    "description": "User ID"
+                }
+            ]
+        }
+      },
+        "/category/get": {
+            "get": {
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Content-Type"
+                    },
+                    {
+                        "in" :"query",
+                        "name": "level",
+                        "schema" : {
+                            "type": "integer"
+                        },
+                        "description": "Get Category Level"
+                    },
+                    {
+                        "in" :"query",
+                        "name": "parent_id",
+                        "schema" : {
+                            "type": "integer"
+                        },
+                        "description": "Get Category List"
+                    },
+                    {
+                        "in" :"query",
+                        "name": "id",
+                        "schema" : {
+                            "type": "integer"
+                        },
+                        "description": "Get Category Detail"
+                    }
+                ],
+                "tags": [
+                    "BO Product Main Category"
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "examples": {
+                                    "Success_level": {
+                                        "value": {
+                                            "message": "Success",
+                                            "status": 1,
+                                            "data": [
+                                                {
+                                                    "categoryId": "5e6b05bfd7c06324be9393e4",
+                                                    "categoryName": "HAND SANITIZER",
+                                                    "categoryLevel": 0,
+                                                    "categoryImage": null,
+                                                    "categoryImageFileName": "pm_category_200313_9cpV.png",
+                                                    "parentId": null,
+                                                    "status": 26,
+                                                    "createdBy": null,
+                                                    "updatedBy": 1157445,
+                                                    "createdAt": "Fri Mar 13 11:02:07 WIB 2020",
+                                                    "updatedAt": "Fri Mar 13 11:19:53 WIB 2020",
+                                                    "category": null,
+                                                    "subCategory": null,
+                                                    "createdByMail": "saiful.fahmi@alfacart.com",
+                                                    "updatedByMail": "saiful.fahmi@alfacart.com"
+                                                },
+                                                {
+                                                    "categoryId": "5f4f5967d7c06360889a639a",
+                                                    "categoryName": "Kategori Test Homepage",
+                                                    "categoryLevel": 0,
+                                                    "categoryImage": null,
+                                                    "categoryImageFileName": "pm_category_200902_4HbL.png",
+                                                    "parentId": null,
+                                                    "status": 27,
+                                                    "createdBy": null,
+                                                    "updatedBy": 1157445,
+                                                    "createdAt": "Wed Sep 02 15:35:51 WIB 2020",
+                                                    "updatedAt": "Wed Sep 02 16:09:34 WIB 2020",
+                                                    "category": null,
+                                                    "subCategory": null,
+                                                    "createdByMail": "saiful.fahmi@alfacart.com",
+                                                    "updatedByMail": "saiful.fahmi@alfacart.com"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "Success_parent_id": {
+                                        "value": {
+                                            "message": "Success",
+                                            "status": 1,
+                                            "data": [
+                                                {
+                                                    "categoryId": "5b857288a3834cdebbbc438b",
+                                                    "categoryName": "Bahan Masakan & Kue",
+                                                    "categoryLevel": 1,
+                                                    "categoryImage": null,
+                                                    "categoryImageFileName": "pm_category_180916_Rn8Z.jpg",
+                                                    "parentId": "5b85712ca3834cdebbbc4363",
+                                                    "status": 26,
+                                                    "createdBy": null,
+                                                    "updatedBy": 342849,
+                                                    "createdAt": "Fri Aug 10 07:00:01 WIB 2018",
+                                                    "updatedAt": "Tue Sep 25 15:21:06 WIB 2018",
+                                                    "category": null,
+                                                    "subCategory": null,
+                                                    "createdByMail": null,
+                                                    "updatedByMail": "adrian.davin94@gmail.com"
+                                                },
+                                                {
+                                                    "categoryId": "5b857288a3834cdebbbc4389",
+                                                    "categoryName": "Perlengkapan Dapur & Ruang Makan",
+                                                    "categoryLevel": 1,
+                                                    "categoryImage": null,
+                                                    "categoryImageFileName": "pm_category_180916_K4su.jpg",
+                                                    "parentId": "5b85712ca3834cdebbbc4363",
+                                                    "status": 26,
+                                                    "createdBy": null,
+                                                    "updatedBy": 1028461,
+                                                    "createdAt": "Fri Aug 10 07:00:01 WIB 2018",
+                                                    "updatedAt": "Wed Jul 24 16:02:31 WIB 2019",
+                                                    "category": null,
+                                                    "subCategory": null,
+                                                    "createdByMail": null,
+                                                    "updatedByMail": "benny.chandra@alfacart.com"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "Success_id": {
+                                        "value": {
+                                            "message": "Success",
+                                            "status": 1,
+                                            "data": {
+                                                "categoryId": "5b85712ca3834cdebbbc436b",
+                                                "categoryName": "Kebutuhan Rumah",
+                                                "categoryLevel": 0,
+                                                "categoryImage": null,
+                                                "categoryImageFileName": "pm_category_190116_FHBT.png",
+                                                "parentId": null,
+                                                "status": 26,
+                                                "createdBy": null,
+                                                "updatedBy": 1157445,
+                                                "createdAt": "Fri Aug 10 07:00:01 WIB 2018",
+                                                "updatedAt": "Fri Jul 17 10:08:04 WIB 2020",
+                                                "category": null,
+                                                "subCategory": null,
+                                                "createdByMail": null,
+                                                "updatedByMail": "saiful.fahmi@alfacart.com"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "description": "server is processing the message"
+                    }
+                }
+            }
+        },
+        "/category/saveUpdate": {
+            "post": {
+                "tags": [
+                    "BO Product Main Category"
+                ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                            },
+                            "examples": {
+                                "Success": {
+                                    "value": {
+                                        "categoryId": "",
+                                        "categoryName": "test category",
+                                        "categoryLevel": 0,
+                                        "categoryImage": null,
+                                        "categoryImageFileName": null,
+                                        "parentId": null,
+                                        "status": 26,
+                                        "createdBy": null,
+                                        "updatedBy": null,
+                                        "createdAt": null,
+                                        "updatedAt": null,
+                                        "category": null,
+                                        "subCategory": null,
+                                        "createdByMail": "farried.fitri@alfacart.com",
+                                        "updatedByMail": null
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "examples": {
+                                    "Success": {
+                                        "value": {
+                                            "message": "Success",
+                                            "status": 1,
+                                            "data": {
+                                                "categoryId": "63106a72daa1ee1fda089f16",
+                                                "categoryName": "test category",
+                                                "categoryLevel": 0,
+                                                "categoryImage": null,
+                                                "categoryImageFileName": null,
+                                                "parentId": null,
+                                                "status": 26,
+                                                "createdBy": null,
+                                                "updatedBy": null,
+                                                "createdAt": "Thu Sep 01 15:16:49 WIB 2022",
+                                                "updatedAt": null,
+                                                "category": null,
+                                                "subCategory": null,
+                                                "createdByMail": "farried.fitri@alfacart.com",
+                                                "updatedByMail": null
+                                            }
+                                        }
+                                    },
+                                    "Failed": {
+                                        "value": {}
+                                    }
+                                }
+                            }
+                        },
+                        "description": "server is processing the message"
+                    }
+                },
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Content-Type"
+                    },
+                    {
+                        "in" :"query",
+                        "name": "userId",
+                        "schema" : {
+                            "type": "integer"
+                        },
+                        "description": "User ID"
+                    }
+                ]
+            }
+        },
+        "/category/delete": {
+            "delete": {
+                "parameters": [
+                    {
+                        "$ref": "#/components/parameters/Content-Type"
+                    },
+                    {
+                        "in" :"query",
+                        "name": "categoryId",
+                        "schema" : {
+                            "type": "integer"
+                        },
+                        "description": "Category ID"
+                    }
+                ],
+                "tags": [
+                    "BO Product Main Category"
+                ],
+                "responses": {
+                    "200": {
+                        "content": {
+                            "application/json": {
+                                "examples": {
+                                    "Success": {
+                                        "value": {
+                                            "message": "Success",
+                                            "status": 1,
+                                            "data": "Empty Result"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "description": "server is processing the message"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "parameters": {
+            "Content-Type": {
+              "examples": {
+                "Content-Type": {
+                  "value": "\"application/json\""
+                }
+              },
+              "name": "Content-Type",
+              "description": "Content Type",
+              "schema": {
+                "type": "string"
+              },
+              "in": "header",
+              "required": true
+            }
+        }
+    },
+    "security": [
+    ]
+  }
